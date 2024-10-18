@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1486428128344-5413e434ad35?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    padding: 0 8%;
+}
+
+.logo {
+    width: 120px;
+    padding: 20px;
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 250%;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+}
+
+.content {
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    color: black;
+}
+
+.content h1 {
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.content h1 span {
+    color: rgb(255, 47, 161);
+    text-shadow: 0px 0px 8px #020202;
+}
+
+.content button {
+    background: transparent;
+    border: 2px solid rgb(0, 0, 0);
+    outline: none;
+    padding: 12px 25px;
+    color: black;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.content button img {
+    width: 15px;
+    margin-left: 10px;
+
+}
+
+.lounch-time {
+    display: flex;
+
+}
+
+.lounch-time div {
+    flex-basis: 100px;
+}
+
+.lounch-time div p {
+    font-size: 60px;
+    margin-bottom: -14px;
+}
+
+.ri-rocket-2-fill {
+    width: 250px;
+    font-size: 200px;
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+    animation: ri-rocket-2-fill 4s linear infinite;
+
+}
+
+@keyframes ri-rocket-2-fill {
+    0% {
+        bottom: 0;
+        opacity: 0;
+
+    }
+
+    100% {
+        bottom: 106%;
+        opacity: 2;
+    }
+}
