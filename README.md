@@ -6,7 +6,7 @@ This project is a simple "Coming Soon" page for Izzah'Bakers, built with HTML, C
 
 ## Table of Contents
 
-- [Demo](#demo)
+
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -14,9 +14,7 @@ This project is a simple "Coming Soon" page for Izzah'Bakers, built with HTML, C
 - [Technologies](#technologies)
 - [License](#license)
 
-## Demo
 
-You can view a live demo of this page here: [Live Demo Link]()
 
 ## Features
 
@@ -35,13 +33,13 @@ To set up this project locally, follow these steps:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/username/projectname.git
+    git clone (https://github.com/Izzah-23/A-Website-Coming-Soon-Page)
     ```
 
 2. Open the project directory:
 
     ```bash
-    cd projectname
+    cd A Website Coming Soon Page
     ```
 
 3. Open the `index.html` file in your browser to view the project.
